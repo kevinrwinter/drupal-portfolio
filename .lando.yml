@@ -1,0 +1,9 @@
+name: drupal-portfolio
+recipe: drupal9
+config:
+  webroot: web
+  drush: true
+  xdebug: false
+services:
+  myservice:
+    type: phpmyadmin
